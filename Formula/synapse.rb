@@ -6,7 +6,7 @@ class Synapse < Formula
   url "https://github.com/fedi-nabli/SynapseEngineBinaries/raw/main/macos/synapse"
   sha256 "0bc2b0fbcec8a39c2c0e5bc482bbed4e9b61904c10bafc4c6f476ac28204482e"
 
-  def instal
+  def install
     bin.install "synapse"
   end
 
