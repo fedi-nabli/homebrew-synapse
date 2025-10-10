@@ -1,10 +1,10 @@
 class Synapse < Formula
   desc "Synapse Engine CLI Tool"
   homepage "https://github.com/fedi-nabli/SynapseEngineBinaries"
-  version "0.2.0"
+  version "0.2.5"
 
   url "https://github.com/fedi-nabli/SynapseEngineBinaries/raw/main/macos/synapse"
-  sha256 "68e4cfc4a1e498bc868acf82e4e89877899b874cda648367345d31dbfa90d696"
+  sha256 "21b816500b4d716da42339028086a83af97df75296b0a654212603592936df33"
 
   def install
     bin.install "synapse"
